@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED735AD8255BBA5300D1131D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED735AD7255BBA5300D1131D /* AppDelegate.swift */; };
+		ED735ADA255BBA5300D1131D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED735AD9255BBA5300D1131D /* SceneDelegate.swift */; };
+		ED735ADC255BBA5300D1131D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED735ADB255BBA5300D1131D /* ViewController.swift */; };
+		ED735ADF255BBA5300D1131D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED735ADD255BBA5300D1131D /* Main.storyboard */; };
+		ED735AE1255BBA5600D1131D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED735AE0255BBA5600D1131D /* Assets.xcassets */; };
+		ED735AE4255BBA5600D1131D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED735AE2255BBA5600D1131D /* LaunchScreen.storyboard */; };
+		ED735AEF255BBA5600D1131D /* Zabron_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED735AEE255BBA5600D1131D /* Zabron_demoTests.swift */; };
+		ED735AFA255BBA5600D1131D /* Zabron_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED735AF9255BBA5600D1131D /* Zabron_demoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED735AEB255BBA5600D1131D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED735ACC255BBA5300D1131D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED735AD3255BBA5300D1131D;
+			remoteInfo = "Zabron-demo";
+		};
+		ED735AF6255BBA5600D1131D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED735ACC255BBA5300D1131D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED735AD3255BBA5300D1131D;
+			remoteInfo = "Zabron-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED735AD4255BBA5300D1131D /* Zabron-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zabron-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED735AD7255BBA5300D1131D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED735AD9255BBA5300D1131D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED735ADB255BBA5300D1131D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED735ADE255BBA5300D1131D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED735AE0255BBA5600D1131D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED735AE3255BBA5600D1131D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED735AE5255BBA5600D1131D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED735AEA255BBA5600D1131D /* Zabron-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zabron-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED735AEE255BBA5600D1131D /* Zabron_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zabron_demoTests.swift; sourceTree = "<group>"; };
+		ED735AF0255BBA5600D1131D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED735AF5255BBA5600D1131D /* Zabron-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zabron-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED735AF9255BBA5600D1131D /* Zabron_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zabron_demoUITests.swift; sourceTree = "<group>"; };
+		ED735AFB255BBA5600D1131D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED735AD1255BBA5300D1131D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED735AE7255BBA5600D1131D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED735AF2255BBA5600D1131D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED735ACB255BBA5300D1131D = {
+			isa = PBXGroup;
+			children = (
+				ED735AD6255BBA5300D1131D /* Zabron-demo */,
+				ED735AED255BBA5600D1131D /* Zabron-demoTests */,
+				ED735AF8255BBA5600D1131D /* Zabron-demoUITests */,
+				ED735AD5255BBA5300D1131D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED735AD5255BBA5300D1131D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED735AD4255BBA5300D1131D /* Zabron-demo.app */,
+				ED735AEA255BBA5600D1131D /* Zabron-demoTests.xctest */,
+				ED735AF5255BBA5600D1131D /* Zabron-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED735AD6255BBA5300D1131D /* Zabron-demo */ = {
+			isa = PBXGroup;
+			children = (
+				ED735AD7255BBA5300D1131D /* AppDelegate.swift */,
+				ED735AD9255BBA5300D1131D /* SceneDelegate.swift */,
+				ED735ADB255BBA5300D1131D /* ViewController.swift */,
+				ED735ADD255BBA5300D1131D /* Main.storyboard */,
+				ED735AE0255BBA5600D1131D /* Assets.xcassets */,
+				ED735AE2255BBA5600D1131D /* LaunchScreen.storyboard */,
+				ED735AE5255BBA5600D1131D /* Info.plist */,
+			);
+			path = "Zabron-demo";
+			sourceTree = "<group>";
+		};
+		ED735AED255BBA5600D1131D /* Zabron-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED735AEE255BBA5600D1131D /* Zabron_demoTests.swift */,
+				ED735AF0255BBA5600D1131D /* Info.plist */,
+			);
+			path = "Zabron-demoTests";
+			sourceTree = "<group>";
+		};
+		ED735AF8255BBA5600D1131D /* Zabron-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED735AF9255BBA5600D1131D /* Zabron_demoUITests.swift */,
+				ED735AFB255BBA5600D1131D /* Info.plist */,
+			);
+			path = "Zabron-demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED735AD3255BBA5300D1131D /* Zabron-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED735AFE255BBA5600D1131D /* Build configuration list for PBXNativeTarget "Zabron-demo" */;
+			buildPhases = (
+				ED735AD0255BBA5300D1131D /* Sources */,
+				ED735AD1255BBA5300D1131D /* Frameworks */,
+				ED735AD2255BBA5300D1131D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zabron-demo";
+			productName = "Zabron-demo";
+			productReference = ED735AD4255BBA5300D1131D /* Zabron-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED735AE9255BBA5600D1131D /* Zabron-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED735B01255BBA5600D1131D /* Build configuration list for PBXNativeTarget "Zabron-demoTests" */;
+			buildPhases = (
+				ED735AE6255BBA5600D1131D /* Sources */,
+				ED735AE7255BBA5600D1131D /* Frameworks */,
+				ED735AE8255BBA5600D1131D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED735AEC255BBA5600D1131D /* PBXTargetDependency */,
+			);
+			name = "Zabron-demoTests";
+			productName = "Zabron-demoTests";
+			productReference = ED735AEA255BBA5600D1131D /* Zabron-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED735AF4255BBA5600D1131D /* Zabron-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED735B04255BBA5600D1131D /* Build configuration list for PBXNativeTarget "Zabron-demoUITests" */;
+			buildPhases = (
+				ED735AF1255BBA5600D1131D /* Sources */,
+				ED735AF2255BBA5600D1131D /* Frameworks */,
+				ED735AF3255BBA5600D1131D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED735AF7255BBA5600D1131D /* PBXTargetDependency */,
+			);
+			name = "Zabron-demoUITests";
+			productName = "Zabron-demoUITests";
+			productReference = ED735AF5255BBA5600D1131D /* Zabron-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED735ACC255BBA5300D1131D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					ED735AD3255BBA5300D1131D = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					ED735AE9255BBA5600D1131D = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = ED735AD3255BBA5300D1131D;
+					};
+					ED735AF4255BBA5600D1131D = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = ED735AD3255BBA5300D1131D;
+					};
+				};
+			};
+			buildConfigurationList = ED735ACF255BBA5300D1131D /* Build configuration list for PBXProject "Zabron-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED735ACB255BBA5300D1131D;
+			productRefGroup = ED735AD5255BBA5300D1131D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED735AD3255BBA5300D1131D /* Zabron-demo */,
+				ED735AE9255BBA5600D1131D /* Zabron-demoTests */,
+				ED735AF4255BBA5600D1131D /* Zabron-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED735AD2255BBA5300D1131D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED735AE4255BBA5600D1131D /* LaunchScreen.storyboard in Resources */,
+				ED735AE1255BBA5600D1131D /* Assets.xcassets in Resources */,
+				ED735ADF255BBA5300D1131D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED735AE8255BBA5600D1131D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED735AF3255BBA5600D1131D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED735AD0255BBA5300D1131D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED735ADC255BBA5300D1131D /* ViewController.swift in Sources */,
+				ED735AD8255BBA5300D1131D /* AppDelegate.swift in Sources */,
+				ED735ADA255BBA5300D1131D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED735AE6255BBA5600D1131D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED735AEF255BBA5600D1131D /* Zabron_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED735AF1255BBA5600D1131D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED735AFA255BBA5600D1131D /* Zabron_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED735AEC255BBA5600D1131D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED735AD3255BBA5300D1131D /* Zabron-demo */;
+			targetProxy = ED735AEB255BBA5600D1131D /* PBXContainerItemProxy */;
+		};
+		ED735AF7255BBA5600D1131D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED735AD3255BBA5300D1131D /* Zabron-demo */;
+			targetProxy = ED735AF6255BBA5600D1131D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED735ADD255BBA5300D1131D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED735ADE255BBA5300D1131D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED735AE2255BBA5600D1131D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED735AE3255BBA5600D1131D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED735AFC255BBA5600D1131D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED735AFD255BBA5600D1131D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED735AFF255BBA5600D1131D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zabron-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jahanvi.Zabron-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED735B00255BBA5600D1131D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zabron-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jahanvi.Zabron-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED735B02255BBA5600D1131D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zabron-demoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jahanvi.Zabron-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zabron-demo.app/Zabron-demo";
+			};
+			name = Debug;
+		};
+		ED735B03255BBA5600D1131D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zabron-demoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jahanvi.Zabron-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zabron-demo.app/Zabron-demo";
+			};
+			name = Release;
+		};
+		ED735B05255BBA5600D1131D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zabron-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jahanvi.Zabron-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zabron-demo";
+			};
+			name = Debug;
+		};
+		ED735B06255BBA5600D1131D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Zabron-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jahanvi.Zabron-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zabron-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED735ACF255BBA5300D1131D /* Build configuration list for PBXProject "Zabron-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED735AFC255BBA5600D1131D /* Debug */,
+				ED735AFD255BBA5600D1131D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED735AFE255BBA5600D1131D /* Build configuration list for PBXNativeTarget "Zabron-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED735AFF255BBA5600D1131D /* Debug */,
+				ED735B00255BBA5600D1131D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED735B01255BBA5600D1131D /* Build configuration list for PBXNativeTarget "Zabron-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED735B02255BBA5600D1131D /* Debug */,
+				ED735B03255BBA5600D1131D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED735B04255BBA5600D1131D /* Build configuration list for PBXNativeTarget "Zabron-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED735B05255BBA5600D1131D /* Debug */,
+				ED735B06255BBA5600D1131D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED735ACC255BBA5300D1131D /* Project object */;
+}
